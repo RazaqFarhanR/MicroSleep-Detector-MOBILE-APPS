@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../constanst/app_colors.dart';
 
 class LoginViews extends StatelessWidget {
   const LoginViews({super.key});
@@ -49,7 +50,7 @@ class LoginViews extends StatelessWidget {
                       Navigator.pushReplacementNamed(context, '/home');
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.lightBlue,
+                      backgroundColor: AppColors.DarkBlue,
                       padding: const EdgeInsets.symmetric(
                         horizontal: 40,
                         vertical: 15,
