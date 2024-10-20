@@ -27,7 +27,7 @@ class VehicleInfoCard extends StatelessWidget {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    print('Tombol diklik');
+                    Navigator.pushNamed(context, '/vehicle');
                   },
                   style: ElevatedButton.styleFrom(
                     iconColor: Colors.white,
